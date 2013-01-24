@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Site\SimpleLineParser\SimpleLineParser.Tests\bin\Debug\SimpleLineParser.Tests.exe" total="24" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2013-01-24" time="12:41:34">
+  <environment nunit-version="2.6.2.12296" clr-version="2.0.50727.5466" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Site\SimpleLineParser\SimpleLineParser.Tests\packages\NUnit.Runners.2.6.2\tools" machine-name="WKSLCABALLEROW7" user="lucas.caballero" user-domain="WSOD" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Site\SimpleLineParser\SimpleLineParser.Tests\bin\Debug\SimpleLineParser.Tests.exe" executed="True" result="Success" success="True" time="0.188" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="SimpleLineParser" executed="True" result="Success" success="True" time="0.188" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.188" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="LinesReaderTests" executed="True" result="Success" success="True" time="0.026" asserts="0">
+                <results>
+                  <test-case name="SimpleLineParser.Tests.LinesReaderTests.Comment_Does_Not_Start_At_Column_1" executed="True" result="Success" success="True" time="0.014" asserts="1" />
+                  <test-case name="SimpleLineParser.Tests.LinesReaderTests.Empty_Line_Is_Not_Comment_Line" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="SimpleLineParser.Tests.LinesReaderTests.Empty_String_Is_Empty_Line" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="SimpleLineParser.Tests.LinesReaderTests.Lines_String_Is_Not_Empty_Line" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="SimpleLineParser.Tests.LinesReaderTests.Null_Line_Is_Not_Comment_Line" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="SimpleLineParser.Tests.LinesReaderTests.Spaced_String_Is_Empty_Line" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="SimpleLineParser.Tests.LinesReaderTests.WS_String_Is_Empty_Line" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="ParseLinesTests" executed="True" result="Success" success="True" time="0.024" asserts="0">
+                <results>
+                  <test-case name="SimpleLineParser.Tests.ParseLinesTests.Parse_All_WS" executed="True" result="Success" success="True" time="0.011" asserts="1" />
+                  <test-case name="SimpleLineParser.Tests.ParseLinesTests.Parse_WS_And_1_Line" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="SimpleLineParser.Tests.ParseLinesTests.To_Lines_All_WS" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="SimpleLineParser.Tests.ParseLinesTests.To_Lines_For_1_Line" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="SimpleLineParser.Tests.ParseLinesTests.To_Lines_For_2_Line" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="SimpleLineParser.Tests.ParseLinesTests.To_Lines_For_Null" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="SimpleLineParser.Tests.ParseLinesTests.To_Lines_Starts_With_WS" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="PathNormalizationTests" executed="True" result="Success" success="True" time="0.123" asserts="0">
+                <results>
+                  <test-case name="SimpleLineParser.Tests.PathNormalizationTests.Normalize_Directory_And_File" executed="True" result="Success" success="True" time="0.111" asserts="1" />
+                  <test-case name="SimpleLineParser.Tests.PathNormalizationTests.Normalize_Empty_String" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="SimpleLineParser.Tests.PathNormalizationTests.Normalize_MS_Rooted_Directory_And_File" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="SimpleLineParser.Tests.PathNormalizationTests.Normalize_Root_Path" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="SimpleLineParser.Tests.PathNormalizationTests.Normalize_Rooted_Directory_And_File" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="RootedPathResolverTests" executed="True" result="Success" success="True" time="0.009" asserts="0">
+                <results>
+                  <test-case name="SimpleLineParser.Tests.RootedPathResolverTests.Correctly_Handles_Extra_Dir_Forward_Slash" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="SimpleLineParser.Tests.RootedPathResolverTests.Maps_Path_Drive_Rooted_Directory" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="SimpleLineParser.Tests.RootedPathResolverTests.Maps_Path_To_Home_Rooted_Directory" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="SimpleLineParser.Tests.RootedPathResolverTests.Null_Passed_To_Resolver_Constructor_Exception" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                  <test-case name="SimpleLineParser.Tests.RootedPathResolverTests.Safely_Maps_Null" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

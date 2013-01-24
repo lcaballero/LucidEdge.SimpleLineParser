@@ -1,0 +1,10 @@
+C:\Site\SingleLineParser\SingleLineParser\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Site\SingleLineParser\SingleLineParser\bin\Debug\SimpleLineParser.dll
+C:\Site\SingleLineParser\SingleLineParser\bin\Debug\SimpleLineParser.pdb
+C:\Site\SingleLineParser\SingleLineParser\obj\x86\Debug\SimpleLineParser.dll
+C:\Site\SingleLineParser\SingleLineParser\obj\x86\Debug\SimpleLineParser.pdb
+C:\Site\SimpleLineParser\SimpleLineParser\bin\Debug\SimpleLineParser.dll
+C:\Site\SimpleLineParser\SimpleLineParser\bin\Debug\SimpleLineParser.pdb
+C:\Site\SimpleLineParser\SimpleLineParser\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Site\SimpleLineParser\SimpleLineParser\obj\x86\Debug\SimpleLineParser.dll
+C:\Site\SimpleLineParser\SimpleLineParser\obj\x86\Debug\SimpleLineParser.pdb
