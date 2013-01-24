@@ -7,10 +7,10 @@ This is really a simple project, and something better probably exists.
 Project Setup
 =============
 
-# Install Nuget command line (the second [Nuget][link])
-# Clone the project and build project (which builds the tests too).
-# (Optionally) Run the tests since the pre-build event will install the nuget packages into the solution.
-The packages include NUnit and NUnitRunner.
-# At this point LucidEdge.SimpleLineParser should be compiled.
+1. Install Nuget command line (use the second [link][Nuget])
+1. Clone the project and build project (which builds the tests too).
+1. The pre-build event will install the nuget packages into the solution.
+1. The packages include NUnit and NUnitRunner.  So, optionally run the tests.
+1. At this point LucidEdge.SimpleLineParser should be a dll that you can use.
 
-[Nuget](http://nuget.codeplex.com/releases/view/58939) "Linke to Nuget command line"
+[Nuget]:(http://nuget.codeplex.com/releases/view/58939) "Linke to Nuget command line"
