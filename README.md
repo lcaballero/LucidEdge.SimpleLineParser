@@ -13,4 +13,4 @@ Project Setup
 1. The packages include NUnit and NUnitRunner.  So, optionally run the tests.
 1. At this point LucidEdge.SimpleLineParser should be a dll that you can use.
 
-[Nuget]:(http://nuget.codeplex.com/releases/view/58939) "Linke to Nuget command line"
+[Nuget]:http://nuget.codeplex.com/releases/view/58939 "Linke to Nuget command line"
